@@ -1,0 +1,743 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 40px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link a
+    {
+        width: 268px;
+    }
+
+
+
+    /*--------------
+        More btn
+    --------------*/
+    .more_btn
+    {
+        width: 268px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .header_wrap
+    {
+        height: auto !important;
+    }
+
+
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: 100%;
+        left: auto;
+
+        width: 100%;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 66px 0 0;
+
+        transition: transform .3s linear;
+
+        background: #fff;
+    }
+
+    header.show
+    {
+        transform: translateX(100%);
+    }
+
+
+    header .scroll
+    {
+        display: flex;
+        overflow: auto;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 56px 0;
+
+        overscroll-behavior-y: contain;
+    }
+
+    header .scroll > *
+    {
+        width: 100%;
+    }
+
+
+    header .logo
+    {
+        display: none;
+    }
+
+
+    header .menu
+    {
+        display: block;
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 0;
+    }
+
+
+    header .menu_item > a
+    {
+        font-size: 18px;
+        line-height: 42px;
+    }
+
+
+    header .contacts
+    {
+        display: block;
+
+        width: 100%;
+        margin-top: 82px;
+
+        text-align: center;
+    }
+
+
+    header .contacts .phone
+    {
+        font-size: 24px;
+        line-height: 21px;
+    }
+
+
+    header .contacts .messengers
+    {
+        justify-content: center;
+
+        margin-top: 11px;
+        margin-left: 0;
+    }
+
+
+    header .contacts .messengers a + a
+    {
+        margin-left: 6px;
+    }
+
+
+    header .contacts .messengers img
+    {
+        width: 34px;
+        height: 34px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .breadcrumbs
+    {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 72px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 44px;
+        line-height: calc(100% + 8px);
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .first_section .grid
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 21px;
+    }
+
+
+
+    /*---------------
+        Guarantee
+    ---------------*/
+    .guarantee
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .guarantee .item .name
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews
+    {
+        margin-bottom: 100px;
+        padding-top: 68px;
+    }
+
+
+    .reviews .count
+    {
+        width: 128px;
+        height: 128px;
+        margin-top: 0;
+    }
+
+
+
+    .reviews .all_link
+    {
+        margin-top: 260px;
+    }
+
+
+    .reviews .img
+    {
+        width: 300px;
+        margin-right: -160px;
+    }
+
+
+    .reviews .img2
+    {
+        right: 24px;
+
+        width: 440px;
+    }
+
+
+    .reviews .img2 img:nth-child(1)
+    {
+        width: 240px;
+    }
+
+    .reviews .img2 img:nth-child(2),
+    .reviews .img2 img:nth-child(3)
+    {
+        width: 188px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases
+    {
+        margin-bottom: 100px;
+    }
+
+
+
+    /*---------------------
+        Payment methods
+    ---------------------*/
+    .payment_methods
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .payment_methods .method
+    {
+        height: 268px;
+    }
+
+
+    .payment_methods .row
+    {
+        padding: 0;
+    }
+
+
+    .payment_methods .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .payment_methods .exp
+    {
+        line-height: 21px;
+
+        margin-top: 68px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        padding: 32px;
+    }
+
+
+    .contacts_info .item .phone
+    {
+        font-size: 32px;
+    }
+
+
+    .contacts_info .feedback_btn
+    {
+        margin-top: 40px;
+        padding: 16px 36px;
+    }
+
+
+
+    /*----------------
+        Directions
+    ----------------*/
+    .directions
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .directions .row > *
+    {
+        width: calc(33.333% - 10px);
+    }
+
+
+    .directions .item
+    {
+        min-height: 260px;
+    }
+
+
+
+    /*-----------------
+        Keep up all
+    -----------------*/
+    .keep_up_all .data
+    {
+        padding: 60px 48px;
+    }
+
+
+    .keep_up_all .title
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .grid
+    {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+
+    .why_we .item
+    {
+        height: 260px;
+    }
+
+    .why_we .item.big
+    {
+        height: 530px;
+    }
+
+
+    .why_we .item .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .why_we .item .info .name
+    {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+
+    .why_we .item .img
+    {
+        right: -64px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .services .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+    .services .service .name
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .info
+    {
+        padding: 68px 40px;
+    }
+
+
+    .service_info .info .duration
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .service_info .info .name
+    {
+        font-size: 44px;
+        line-height: calc(100% + 8px);
+    }
+
+
+    .service_info .info .desc
+    {
+        font-size: 16px;
+
+        width: 360px;
+    }
+
+
+    .service_info .info .btn
+    {
+        width: 292px;
+        height: 56px;
+        margin-top: 32px;
+    }
+
+
+    .service_info .image
+    {
+        min-height: 436px;
+    }
+
+
+
+    /*----------------
+        MMU secret
+    ----------------*/
+    .MMU_secret .data
+    {
+        padding: 60px 40px;
+    }
+
+
+    .MMU_secret .title
+    {
+        font-size: 28px;
+        line-height: calc(100% + 8px);
+
+        margin-bottom: 24px;
+    }
+
+
+
+    /*--------------
+        Subjects
+    --------------*/
+    .subjects .row > *
+    {
+        width: calc(25% - 6px);
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ
+    {
+        margin-bottom: 100px;
+        padding: 80px 0 100px;
+    }
+
+
+    .FAQ .block_head
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .FAQ .block_head .btn
+    {
+        width: 280px;
+        height: 56px;
+        margin-top: 28px;
+    }
+
+
+    .FAQ .accordion
+    {
+        width: 100%;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .steps .block_head
+    {
+        padding-bottom: 0;
+    }
+
+
+    .steps .step
+    {
+        width: 215px;
+        height: 215px;
+        padding: 48px 30px;
+    }
+
+
+    .steps .step .number
+    {
+        font-size: 40px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .steps .step .name
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .articles .article .date
+    {
+        margin-top: 16px;
+    }
+
+
+    .articles .article .name
+    {
+        margin-top: 12px;
+    }
+
+
+    .articles .vk_info
+    {
+        padding: 20px;
+    }
+
+
+    .articles .vk_info .icon
+    {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 24px;
+    }
+
+
+    .articles .vk_info .link
+    {
+        padding-left: 0;
+    }
+
+
+    .articles .vk_info .link a
+    {
+        font-size: 13px;
+    }
+
+
+    .articles .vk_info .link .arr
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+    /*--------------------
+        Reviews slider
+    --------------------*/
+    .reviews_slider
+    {
+        margin-bottom: 100px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 48px 0 24px;
+    }
+
+
+    footer .cont + .cont
+    {
+        margin-top: 56px;
+    }
+
+
+
+    footer .menu
+    {
+        margin-top: 28px;
+    }
+
+
+
+    footer .phone
+    {
+        font-size: 84px;
+
+        margin-top: 28px;
+    }
+
+
+
+    footer .messengers
+    {
+        margin-top: 28px;
+    }
+
+
+    footer .messengers img
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    /* footer .phrases
+    {
+        display: none;
+    } */
+}

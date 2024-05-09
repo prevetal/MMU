@@ -1,0 +1,613 @@
+@media print,
+(max-width: 1599px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 32px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: -24px;
+    }
+
+    .swiper-button-next
+    {
+        right: -24px;
+    }
+
+
+    .wheelSlider-container .wheelSlider-arrow
+    {
+        display: none;
+    }
+
+
+    .wheelSlider-container .dots
+    {
+        margin-top: 52px;
+    }
+
+
+
+    /*----------------
+        BG section
+    ----------------*/
+    .bg_section.bg3:before,
+    .bg_section.bg2:before
+    {
+        top: -400px;
+        bottom: auto;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding-top: 32px;
+        padding-right: 80px;
+        padding-bottom: 32px;
+        padding-left: 32px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        right: 24px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 0 32px 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu_item + .menu_item
+    {
+        margin-left: 32px;
+    }
+
+
+    header .contacts .phone
+    {
+        font-size: 22px;
+        line-height: 100%;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 52px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .block_head .desc
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: 52px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 22px;
+
+        margin-top: 32px;
+    }
+
+
+    .first_section .subscribe
+    {
+        margin-top: 52px;
+    }
+
+
+
+    /*---------------
+        Guarantee
+    ---------------*/
+    .guarantee
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .guarantee .item
+    {
+        padding: 24px 24px 40px;
+    }
+
+
+    .guarantee .item .thumb
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .guarantee .item .name
+    {
+        font-size: 32px;
+        line-height: calc(100% + 6px);
+    }
+
+
+    .guarantee .item .desc
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases
+    {
+        margin-bottom: 140px;
+    }
+
+
+
+    /*---------------------
+        Payment methods
+    ---------------------*/
+    .payment_methods
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .payment_methods .row
+    {
+        padding-top: 32px;
+    }
+
+
+    .payment_methods .method
+    {
+        height: 260px;
+        padding: 20px;
+    }
+
+
+    .payment_methods .exp
+    {
+        margin-top: 100px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .contacts_info .data
+    {
+        padding: 40px;
+    }
+
+
+    .contacts_info .item + .item
+    {
+        margin-top: 20px;
+    }
+
+
+    .contacts_info .item .phone
+    {
+        font-size: 36px;
+    }
+
+
+    .contacts_info .feedback_btn
+    {
+        margin-top: 40px;
+        padding: 16px 36px;
+    }
+
+
+
+    /*----------------
+        Directions
+    ----------------*/
+    .directions
+    {
+        margin-bottom: 124px;
+    }
+
+
+    .directions .item
+    {
+        min-height: 296px;
+        padding: 24px;
+    }
+
+
+
+    /*-----------------
+        Keep up all
+    -----------------*/
+    .keep_up_all
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .keep_up_all .data
+    {
+        padding: 80px;
+    }
+
+
+    .keep_up_all .title
+    {
+        line-height: calc(100% + 10px);
+
+        margin-bottom: 32px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .why_we .item
+    {
+        height: 296px;
+        padding: 24px;
+    }
+
+    .why_we .item.big
+    {
+        height: 598px;
+    }
+
+
+    .why_we .item .info
+    {
+        top: 32px;
+        left: 32px;
+    }
+
+
+    .why_we .item .name
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .why_we .item .img
+    {
+        right: -68px;
+    }
+
+
+    .why_we .order_btn
+    {
+        margin-top: 40px;
+        padding: 14px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -32px;
+        margin-left: -32px;
+    }
+
+    .services .row > *
+    {
+        width: calc(25% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 26px;
+    }
+
+
+    .services .service .link
+    {
+        margin-top: 16px;
+        padding: 14px;
+    }
+
+
+    .services .service .order_btn
+    {
+        height: 56px;
+        margin-top: 8px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .service_info .back_btn
+    {
+        top: 12px;
+        left: 12px;
+    }
+
+
+    .service_info .info
+    {
+        padding: 80px;
+    }
+
+
+    .service_info .info .name
+    {
+        font-size: 52px;
+    }
+
+
+    .service_info .info .desc
+    {
+        font-size: 22px;
+
+        width: 500px;
+    }
+
+
+    .service_info .info .btn
+    {
+        width: 300px;
+        height: 60px;
+        margin-top: 40px;
+    }
+
+
+    .service_info .image
+    {
+        min-height: 480px;
+    }
+
+
+
+    /*----------------
+        MMU secret
+    ----------------*/
+    .MMU_secret
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .MMU_secret .data
+    {
+        padding: 68px 80px;
+    }
+
+
+    .MMU_secret .title
+    {
+        font-size: 32px;
+        line-height: calc(100% + 10px);
+
+        margin-bottom: 32px;
+    }
+
+
+    .MMU_secret .text_block
+    {
+        width: 900px;
+    }
+
+
+
+    /*--------------
+        Subjects
+    --------------*/
+    .subjects
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .subjects .data
+    {
+        padding: 40px 24px;
+    }
+
+
+    .subjects .search
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .subjects .row > *
+    {
+        width: calc(16.666% - 6px);
+    }
+
+
+    .subjects .item
+    {
+        min-height: 192px;
+        padding: 20px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ
+    {
+        margin-bottom: 140px;
+        padding: 88px 0 140px;
+    }
+
+
+    .FAQ .block_head .btn
+    {
+        width: 292px;
+        height: 60px;
+        margin-top: 32px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .steps .block_head
+    {
+        padding-bottom: 40px;
+    }
+
+
+    .steps .step
+    {
+        width: 293px;
+        height: 293px;
+        padding: 60px 50px;
+    }
+
+
+    .steps .step .number
+    {
+        margin-bottom: 36px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 140px;
+    }
+
+
+
+    /*--------------------
+        Reviews slider
+    --------------------*/
+    .reviews_slider
+    {
+        margin-bottom: 140px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 52px 0 32px;
+    }
+
+
+    /* footer .cont + .cont
+    {
+        margin-top: 232px;
+    } */
+
+
+
+    footer .menu
+    {
+        margin-top: 40px;
+    }
+
+
+    footer .menu > * + *
+    {
+        margin-left: 40px;
+    }
+
+
+
+    footer .phone
+    {
+        font-size: 120px;
+
+        margin-top: 40px;
+    }
+
+
+    footer .messengers
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

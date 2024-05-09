@@ -1,0 +1,751 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 20px;
+    }
+
+
+    .cont
+    {
+        padding: 0 8px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        BG section
+    ----------------*/
+    .bg_section.bg3
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 16px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 0 16px 16px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 8px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link a
+    {
+        width: 100%;
+        padding: 10px;
+    }
+
+
+
+    /*--------------
+        More btn
+    --------------*/
+    .more_btn
+    {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header:after
+    {
+        width: calc(100% - 16px);
+    }
+
+
+    .mob_header .logo img
+    {
+        height: 22px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .block_head .icon img
+    {
+        width: 52px;
+    }
+
+    .block_head .title.big
+    {
+        font-size: var(--font_size_title);
+    }
+
+
+    .block_head .desc
+    {
+        line-height: 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 68px;
+        padding-top: 45px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 28px;
+    }
+
+
+    .first_section .desc
+    {
+        margin-top: 20px;
+    }
+
+
+    .first_section .subscribe
+    {
+        margin-top: 25px;
+    }
+
+
+
+    /*---------------
+        Guarantee
+    ---------------*/
+    .guarantee
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .guarantee .item
+    {
+        padding: 10px 9px;
+    }
+
+
+    .guarantee .item .name
+    {
+        font-size: 20px;
+        line-height: calc(100% + 4px);
+    }
+
+
+    .guarantee .item .thumb
+    {
+        margin-bottom: 17px;
+
+        border-radius: 14px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews
+    {
+        padding-bottom: 44px;
+    }
+
+
+    .reviews .count
+    {
+        width: 108px;
+        height: 108px;
+        margin-right: -132px;
+    }
+
+
+    .reviews .count .val
+    {
+        font-size: 36px;
+    }
+
+
+    .reviews .all_link
+    {
+        margin-top: 444px;
+    }
+
+
+    .reviews .img2
+    {
+        bottom: 109px;
+
+        width: 340px;
+    }
+
+
+    .reviews .img2 img:nth-child(1)
+    {
+        width: 200px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .cases .list > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+    .cases .case .line
+    {
+        padding: 8px 12px;
+    }
+
+
+    .cases .case .line + .line
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*---------------------
+        Payment methods
+    ---------------------*/
+    .payment_methods
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .payment_methods .row
+    {
+        margin-bottom: -12px;
+    }
+
+
+    .payment_methods .row > *
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .payment_methods .method
+    {
+        height: 196px;
+        padding: 16px;
+    }
+
+
+    .payment_methods .method .logo
+    {
+        height: 30px;
+    }
+
+
+    .payment_methods .method .copy_btn
+    {
+        font-size: 12px;
+
+        height: 40px;
+    }
+
+
+    .payment_methods .method .type img
+    {
+        max-width: 60px;
+        max-height: 40px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .contacts_info .item .phone
+    {
+        font-size: 24px;
+    }
+
+
+    .contacts_info .feedback_btn
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        Directions
+    ----------------*/
+    .directions
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .directions .item
+    {
+        min-height: 148px;
+        padding: 16px 12px;
+    }
+
+
+    .directions .item .icon
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .directions .item .name
+    {
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    .directions .item .name br
+    {
+        display: none;
+    }
+
+
+    .directions .item .count
+    {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+
+
+    /*-----------------
+        Keep up all
+    -----------------*/
+    .keep_up_all
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .keep_up_all .data
+    {
+        padding: 28px 12px;
+    }
+
+
+    .keep_up_all .title
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .why_we .item + .item
+    {
+        margin-top: 8px;
+    }
+
+
+    .why_we .item .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .why_we .item .img
+    {
+        right: -40px;
+
+        width: 348px;
+        max-width: none;
+        max-height: none;
+    }
+
+
+    .why_we .order_btn
+    {
+        margin-top: 24px;
+        padding: 10px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .services .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .services .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .services .swiper-slide
+    {
+        width: 271px;
+    }
+
+
+    .services .service .features
+    {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+
+    .services .service .link
+    {
+        padding: 10px;
+    }
+
+
+    .services .service .order_btn
+    {
+        height: 48px;
+    }
+
+
+    .services .service:hover
+    {
+        transform: none;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .info
+    {
+        padding: 40px 20px;
+    }
+
+
+    .service_info .info .name
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*----------------
+        MMU secret
+    ----------------*/
+    .MMU_secret .data
+    {
+        padding: 24px 16px;
+    }
+
+
+    .MMU_secret .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 16px;
+    }
+
+
+
+    /*--------------
+        Subjects
+    --------------*/
+    .subjects
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .subjects .data
+    {
+        padding: 24px 16px 16px;
+    }
+
+
+    .subjects .block_head
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .subjects .search
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .subjects .item
+    {
+        min-height: 140px;
+        padding: 12px;
+    }
+
+
+    .subjects .item .arr
+    {
+        width: 27px;
+        height: 27px;
+    }
+
+
+    .subjects .item .arr svg
+    {
+        width: 13px;
+        height: 6px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ
+    {
+        margin-bottom: 60px;
+        padding: 60px 0;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .steps .row
+    {
+        width: calc(100% + 16px);
+        margin: 0 -8px;
+        padding: 0 8px;
+
+        scroll-padding: 0 8px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .articles .row
+    {
+        margin-left: 0;
+    }
+
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .articles .article .category
+    {
+        bottom: 16px;
+        left: 16px;
+    }
+
+
+    .articles .vk_info
+    {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    .articles .vk_info .link
+    {
+        margin-top: 164px;
+    }
+
+
+    .articles .vk_info .link a
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .articles .vk_info .link .arr
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+
+    /*--------------------
+        Reviews slider
+    --------------------*/
+    .reviews_slider
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .reviews_slider .wheelSlider-container
+    {
+        width: 208px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 40px;
+    }
+
+
+
+    footer .logo img
+    {
+        height: 22px;
+    }
+
+
+
+    footer .phone
+    {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+
+
+    footer .messengers img
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 48px 24px 24px;
+    }
+
+
+    .modal.success
+    {
+        padding: 60px 24px;
+    }
+
+
+    .modal.success .text
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

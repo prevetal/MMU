@@ -1,0 +1,216 @@
+/* Container */
+.wheelSlider-container
+{
+    position: relative;
+
+    visibility: hidden;
+
+    max-width: 100%;
+    margin: 0 auto;
+
+    transition: opacity .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+
+    -webkit-touch-callout: none;
+}
+
+.wheelSlider-container.loaded
+{
+    visibility: visible;
+
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+/* Slide */
+.wheelSlider-container .slide
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    visibility: hidden;
+
+    width: 100%;
+
+    transition: .5s linear;
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+.wheelSlider-container .slide.next,
+.wheelSlider-container .slide.prev,
+.wheelSlider-container .slide.next_next,
+.wheelSlider-container .slide.prev_prev
+{
+    visibility: visible;
+
+    transform: scale(.8);
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+.wheelSlider-container .slide.next_next,
+.wheelSlider-container .slide.prev_prev
+{
+    transform: scale(.7);
+}
+
+
+.wheelSlider-container .slide.prev
+{
+    z-index: 3;
+    left: -80%;
+}
+
+.wheelSlider-container .slide.next
+{
+    z-index: 3;
+    left: 80%;
+}
+
+.wheelSlider-container .slide.prev_prev
+{
+    z-index: 2;
+    left: -150%;
+}
+
+.wheelSlider-container .slide.next_next
+{
+    z-index: 2;
+    left: 150%;
+}
+
+
+.wheelSlider-container .slide.now
+{
+    z-index: 5;
+
+    visibility: visible;
+
+    transform: scale(1);
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+/* Dots */
+.wheelSlider-container .dots
+{
+    position: absolute;
+    z-index: 9;
+    top: 100%;
+    left: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    height: 9px;
+    margin: 58px 0 0;
+
+    pointer-events: none;
+}
+
+.wheelSlider-container .dots button
+{
+    display: block;
+    overflow: hidden;
+
+    width: 9px;
+    height: 9px;
+
+    cursor: pointer;
+    transition: width .2s linear;
+    text-indent: -9999px;
+
+    opacity: 1;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.wheelSlider-container .dots button + button
+{
+    margin-left: 8px;
+}
+
+.wheelSlider-container .dots button:hover,
+.wheelSlider-container .dots button.active
+{
+    width: 26px;
+}
+
+
+/* Arrows */
+.wheelSlider-container .wheelSlider-arrow
+{
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 69px;
+    height: 69px;
+    margin: auto 0;
+
+    cursor: pointer;
+    transition: .2s linear;
+
+    color: #74be8b;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+}
+
+.wheelSlider-container .wheelSlider-arrow[data-action='prev']
+{
+    left: 0;
+
+    margin-left: -540px;
+}
+
+.wheelSlider-container .wheelSlider-arrow[data-action='next']
+{
+    right: 0;
+
+    margin-right: -540px;
+}
+
+
+.wheelSlider-container .wheelSlider-arrow .icon
+{
+    display: block;
+
+    width: 14px;
+    height: 22px;
+}
+
+.wheelSlider-container .wheelSlider-arrow[data-action='next'] .icon
+{
+    transform: rotate(180deg);
+}
+
+
+.wheelSlider-container .wheelSlider-arrow:hover
+{
+    color: #fff;
+    background: #74be8b;
+}
