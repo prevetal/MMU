@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 					items.forEach(el => el.style.height = 'auto')
 
-					setHeight(items)
+					setTimeout(() => setHeight(items))
 				}
 			}
 		}
