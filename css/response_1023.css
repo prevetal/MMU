@@ -486,8 +486,8 @@
         overflow: auto;
 
         width: calc(100% + 48px);
-        margin: 0 -24px;
-        padding: 0 24px;
+        margin: -20px -24px 0;
+        padding: 20px 24px 0;
 
         white-space: nowrap;
 

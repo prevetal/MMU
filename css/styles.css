@@ -3060,6 +3060,9 @@ header.fixed .order
 
     display: block;
 
+    min-width: 100px;
+    min-height: 100px;
+
     transition: transform .3s linear;
     transform: translateY(100%);
 }
@@ -4335,6 +4338,8 @@ header.fixed .order
     line-height: 20px;
 
     padding-bottom: 20px;
+
+    word-break: break-all;
 }
 
 

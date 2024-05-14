@@ -615,8 +615,8 @@
     .steps .row
     {
         width: calc(100% + 16px);
-        margin: 0 -8px;
-        padding: 0 8px;
+        margin: -20px -8px 0;
+        padding: 20px 8px 0;
 
         scroll-padding: 0 8px;
     }

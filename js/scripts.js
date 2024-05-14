@@ -144,14 +144,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 
-	// Reviews
-	$('.reviews_slider .wheelSlider-container').wheelSlider({
-		items: 5,
-		arrowPrevHtml: '<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>',
-		arrowNextHtml: '<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>'
-	})
-
-
 	// Custom select - Nice select
 	const selects = document.querySelectorAll('select:not(.skip)')
 
@@ -197,6 +189,14 @@ window.addEventListener('load', function () {
 	WW > 1900 && headerInit && $(window).scrollTop() > 0
 		? $('header').addClass('fixed')
 		: $('header').removeClass('fixed')
+
+
+	// Reviews
+	$('.reviews_slider .wheelSlider-container').wheelSlider({
+		items: 5,
+		arrowPrevHtml: '<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>',
+		arrowNextHtml: '<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>'
+	})
 })
 
 
