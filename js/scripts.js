@@ -24,7 +24,9 @@ document.addEventListener('DOMContentLoaded', function () {
 			spaceBetween: 6,
 			slidesPerView: 'auto',
 			on: {
-				init: swiper => setHeight(swiper.el.querySelectorAll('.service')),
+				init: swiper => {
+					setTimeout(() => setHeight(swiper.el.querySelectorAll('.service')))
+				},
 				resize: swiper => {
 					let items = swiper.el.querySelectorAll('.service')
 
