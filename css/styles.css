@@ -3549,9 +3549,16 @@ header.fixed .order
     margin-top: 41px;
     padding: 17px 37px;
 
+    transition: background .2s linear;
+
     color: #fff;
     border-radius: 9px;
     background: #000;
+}
+
+.contacts_info .feedback_btn:hover
+{
+    background: #474747;
 }
 
 
@@ -4142,9 +4149,16 @@ header.fixed .order
     height: 62px;
     margin: 50px auto 0;
 
+    transition: background .2s linear;
+
     color: #fff;
     border-radius: 9px;
     background: #000;
+}
+
+.service_info .info .btn:hover
+{
+    background: #474747;
 }
 
 
